@@ -12,7 +12,6 @@ Patch1: gxmms-0.3.0-gcc4.1.patch
 URL:		http://www.nongnu.org/gxmms/
 License:	GPL
 Group:		Sound
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	libpanel-applet-2-devel
 BuildRequires:	xmms-devel
 BuildRequires:  perl-XML-Parser

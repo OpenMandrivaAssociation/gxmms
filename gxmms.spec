@@ -1,6 +1,6 @@
 %define name	gxmms
 %define version 0.3.0
-%define release %mkrel 9
+%define release %mkrel 10
 
 Name: 	 	%{name}
 Summary: 	Controls XMMS through the GNOME2 panel
@@ -34,7 +34,6 @@ Internazionalization (i18n)
 %patch1 -p1 -b .gcc
 
 %build
-export LDFLAGS=`gtk-config --libs`
 %configure2_5x --with-xmms
 %make
 									

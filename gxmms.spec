@@ -1,6 +1,6 @@
 %define name	gxmms
 %define version 0.3.0
-%define release %mkrel 10
+%define release %mkrel 12
 
 Name: 	 	%{name}
 Summary: 	Controls XMMS through the GNOME2 panel

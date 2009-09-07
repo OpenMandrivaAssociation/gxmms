@@ -14,6 +14,7 @@ License:	GPL
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	libpanel-applet-2-devel
+BuildRequires:	libgnomeui2-devel
 BuildRequires:	xmms-devel
 BuildRequires:  perl-XML-Parser
 BuildRequires: intltool

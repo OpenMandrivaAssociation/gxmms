@@ -1,0 +1,22 @@
+--- gxmms-0.3.0/src/interface.c~	2005-01-05 01:22:54.000000000 +0100
++++ gxmms-0.3.0/src/interface.c	2007-02-27 17:00:04.000000000 +0100
+@@ -227,7 +227,7 @@
+     gdouble width;
+     GtkWidget *progress;
+     BonoboUIComponent *popup;
+-    gchar info[256] = _("No track");
++    gchar info[256] = "No track";
+ 
+     progress = xmms->track_control.progress;
+     if (!player_is_running(xmms))
+--- gxmms-0.3.0/src/xmmsctrl.c~	2005-01-05 01:22:54.000000000 +0100
++++ gxmms-0.3.0/src/xmmsctrl.c	2007-02-27 17:00:28.000000000 +0100
+@@ -44,7 +44,7 @@
+ void
+ player_start(XMMSData *xmms)
+ {
+-    static gchar *msg_error = _("Unable to launch XMMS.");
++    gchar *msg_error = _("Unable to launch XMMS.");
+     static gchar *exec_cmd = "xmms &";
+     gint timer;
+     time_t lt;

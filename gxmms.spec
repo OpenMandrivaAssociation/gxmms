@@ -9,7 +9,7 @@ Release: 	%{release}
 
 Source:		http://savannah.nongnu.org/download/gxmms/%{name}-%{version}.tar.bz2
 Patch1: gxmms-0.3.0-gcc4.1.patch
-URL:		http://www.nongnu.org/gxmms/
+URL:		https://www.nongnu.org/gxmms/
 License:	GPL
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot

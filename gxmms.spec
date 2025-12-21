@@ -13,6 +13,11 @@ URL:		https://www.nongnu.org/gxmms/
 License:	GPL
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libpanel-applet-2-devel
 BuildRequires:	libgnomeui2-devel
 BuildRequires:	xmms-devel
